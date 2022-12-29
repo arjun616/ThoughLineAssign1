@@ -1,0 +1,45 @@
+<div style="width: 600px; margin-top: 50px; height: 550px;" class="col-10 d1 container bg-light form-control p-4">
+    <h2 style="text-align: center;">Add / Edit User</h2>
+    <br><br>
+    <form #heroform="ngForm">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User ID</label>
+            <input type="text" [(ngModel)]="id1" name="id" class="form-control" id="exampleInputEmail1">
+
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User Name</label>
+            <input type="text" [(ngModel)]="name1" name="name" class="form-control" id="exampleInputEmail1">
+
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email Id</label>
+            <input type="text" [(ngModel)]="email1" name="email" class="form-control" id="exampleInputEmail1">
+
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Status</label>
+
+
+            <select (click)="backycolor()" id="cityname" [style.color]="color" class="form-control"
+                [(ngModel)]="status1" name="status" id="exampleInputEmail1">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+
+        </div>
+        <br>
+
+        <div>
+
+            <button *ngIf="id==':id'" (click)="add()" id="save" style="margin-left: 120px;" type="submit"
+                class="btn btn-success">Save</button>
+            <button *ngIf="id!=':id'" (click)="update()" id="cancel" style="margin-left: 30px;" type="submit"
+                class="btn btn-secondary">Update</button>
+            <button (click)="cancel(); heroform.resetForm()" style="margin-left: 20px;" type="submit"
+                class="btn btn-warning">Cancel</button>
+        </div>
+
+    </form>
+    <br>
+</div>

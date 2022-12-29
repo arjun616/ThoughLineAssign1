@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "id": "3",
+      "name": "aju",
+      "email": "Akhil@gmal.com",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Melvin jacob",
+      "email": "melvin@gmail",
+      "status": "Inactive"
+    },
+    {
+      "id": "5",
+      "name": "kiki",
+      "email": "logan@gmail",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "name": "helen",
+      "email": "Quest@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": "22",
+      "name": "qqweqweqwe",
+      "email": "qweqweqwe",
+      "status": "Active"
+    },
+    {
+      "id": "11",
+      "name": "asdadasd",
+      "email": "asdasd",
+      "status": "Active"
+    },
+    {
+      "id": "122",
+      "name": "asdasd",
+      "email": "asdasd",
+      "status": "Inactive"
+    }
+  ]
+}
